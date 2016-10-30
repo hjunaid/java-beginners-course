@@ -1,4 +1,4 @@
-#Eclipse Installation Guide.
+### Eclipse Installation Guide.
 
 https://eclipse.org/downloads/
 
@@ -23,8 +23,23 @@ Select a workspace when prompted. Verify that you can see Welcome screen in Ecli
 
 Well done! You have successfully complete the installation of Eclipse IDE.  
 
-#Git Installation guide 
+### Git Installation guide  - MAC
 
-# Java installation 
+Download git installer from https://git-scm.com/download/mac
+
+Double click on the downloaded file and continue with the instructions
+
+### Git Installation guide - Windows
+
+Download git installer from http://git-scm.com/download/win
+
+Double click on the downloaded file and continue with the instructions
+
+### Java installation
+
+You should have Java 8 installed to work through the workshop
+
+To test if Java is installed correctly follow this link https://java.com/en/download/help/testvm.xml
+
 
 
