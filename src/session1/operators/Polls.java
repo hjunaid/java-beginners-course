@@ -6,8 +6,10 @@ package session1.operators;
  */
 public class Polls {
 
-    public static void main(String[] args){
-        /*Calculate probability of Clinton winning*/
+    /*Calculate probability of Clinton winning.
+    * Given that 2000 voters favoured  while 3000 voters favoured Clinton in the polls.
+    * */
+    public static void main(String[] args) {
 
         int votersFavouringTrump = 2000;
 
