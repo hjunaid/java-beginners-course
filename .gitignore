@@ -1,6 +1,5 @@
-/bin/
-.idea/
+out/
+.idea
 .classpath
 .project
-.idea
-
+bin/

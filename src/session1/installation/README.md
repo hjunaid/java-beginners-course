@@ -4,7 +4,7 @@ These step by step instructions will guide you through setting up your developme
 
 The following tools are covered:
 
-1. Eclipse IDE - A free, feature rich platform for all types of development work.
+1. Eclipse IDE - A free, feature rich platform for general development work.
 
 2. GIT - The most widely used version control system for source code.
 
@@ -27,8 +27,6 @@ The following tools are covered:
 * Select Default installation folder and click install. 
 
 * Accept the Software User Agreement whenever asked to do so. 
-
-* Once installation is complete, click on Launch button. 
 
 * Select a workspace when prompted. Verify that you can see Welcome screen in Eclipse IDE. 
 
