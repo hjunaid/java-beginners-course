@@ -8,17 +8,19 @@ The following tools are covered:
 
 2. GIT - The most widely used version control system for source code.
 
-3. JAVA 8 - Java Development Kit (JDK) which includes all the bits necessary to run and create Java applications.
+3. JAVA 8 - Java Development Kit (JDK) which includes all the parts necessary to run and create Java applications.
 
 ### Eclipse IDE installation - MAC & Windows Users:
 
-* Navigate to https://eclipse.org/downloads/
+* Navigate to https://eclipse.org/downloads
 
 * In the Get Eclipse Neon section, click Download and follow the instructions to download Eclipse IDE.
 
 * Once downloaded, double click on downloaded file which will extract Eclipse Installer file. 
 
 * Double click on Eclipse Installer file. 
+
+* If you do not have Java JDK installed, eclipse will prompt you to install it. Please click 'Oracle JDK 1.8.0' -> Accept license agreement for 'Java SE Development Kit 8u111' -> Select appropriate Java bundle (for Windows this will typically be 'Windows x64', and 'Mac OS X' for MAC users) -> Double click downloaded file and follow the installation instructions -> Once completed navigate back to the downloaded Eclipse file to continue installing Eclipse
 
 * Eclipse installer will start the installation process. 
 
@@ -36,9 +38,11 @@ The following tools are covered:
 
 * Download git installer from https://git-scm.com/download/mac
 
-* Double click on the downloaded file and continue with the instructions
+* Double click on the downloaded file and continue with the instructions.
 
-* Open a new terminal and confirm that GIT has been successfully installed by running this command: 'git --version'
+* Open a new terminal. Spotligh search -> enter 'terminal'
+
+* Confirm that GIT has been successfully installed and is available on your user path by running this command: 'git --version'.  Output should verify GIT version.
 
 ### Git Installation guide - Windows Users:
 
@@ -46,26 +50,24 @@ The following tools are covered:
 
 * Double click on the downloaded file and continue with the instructions.
 
-* Open a new command prompt and confirm that GIT has been successfully installed by running this command: 'git --version'
+* Open a new command prompt. Click windows start -> run -> Enter: 'cmd' and enter
 
-### Java installation - MAC Users: 
-
-* You should have Java 8 installed to work through the workshop.
-
-* To test if Java is installed correctly follow this link https://java.com/en/download/help/testvm.xml
-
-* If required use the link to download Java for Mac.  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* Confirm that GIT has been successfully installed and is available on your user path by running this command: 'git --version'. Output should verify GIT version.
 
 ## Project setup instructions - MAC & Windows Users:
 
-These step by step instructions will guide you through setting up the projects within Eclipse.
+These step by step instructions will guide you through setting up the coding projects within Eclipse.
 
 ### Download project
 
-* Choose somewhere on your filesystem to download the project. E.g 'C:/workspace/projects/java-training'
+* Choose somewhere on your filesystem to download the project - this can be anywhere. E.g 'C:/workspace/projects/java-training'
 
 * Open a cmd prompt and navigate to the file path by running this command: 'cd C:/workspace/projects/java-training'
 
 * Execute the following GIT command to download the source code for the workshop: 'git clone https://github.com/hjunaid/java-beginners-course.git'
 
 * Launch Eclipse and choose select: File -> Import -> Git -> Projects from Git -> Next -> Existing local repository -> Add -> Browse -> (select where source code is downloaded) -> Click OK -> (Project should now be visible) -> Click Finish
+
+* Projects should now be visible in Eclipse
+
+* Congratulations! You are ready to code.
