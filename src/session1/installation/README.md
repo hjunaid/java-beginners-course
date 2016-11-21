@@ -16,11 +16,16 @@ The following tools are covered:
 
 * In the Get Eclipse Neon section, click Download and follow the instructions to download Eclipse IDE.
 
-* Once downloaded, double click on downloaded file which will extract Eclipse Installer file. 
+* Once downloaded, double click on the file which will extract Eclipse Installer file. 
 
 * Double click on Eclipse Installer file. 
 
-* If you do not have Java JDK installed, eclipse will prompt you to install it. Please click 'Oracle JDK 1.8.0' -> Accept license agreement for 'Java SE Development Kit 8u111' -> Select appropriate Java bundle (for Windows this will typically be 'Windows x64', and 'Mac OS X' for MAC users) -> Double click downloaded file and follow the installation instructions -> Once completed navigate back to the downloaded Eclipse file to continue installing Eclipse
+* If you do not have Java JDK installed, eclipse will prompt you to install it: 
+  > <span style="font-size: 15px;">1. Click 'Oracle JDK 1.8.0'
+  > 2. Accept license agreement for 'Java SE Development Kit 8u111'
+  > 3. Select appropriate Java bundle (for Windows this will typically be 'Windows x64' and 'Mac OS X' for MAC users) 
+  > 4. Double click downloaded file and follow the installation instructions 
+  > 5. Once completed navigate back to the downloaded Eclipse file to continue installing Eclipse</style>
 
 * Eclipse installer will start the installation process. 
 
@@ -28,11 +33,11 @@ The following tools are covered:
 
 * Select Default installation folder and click install. 
 
-* Accept the Software User Agreement whenever asked to do so. 
+* Accept the Software User License Agreement whenever asked to do so. 
 
-* Select a workspace when prompted. Verify that you can see Welcome screen in Eclipse IDE. 
+* Select a workspace when prompted. Verify that you can see the welcome screen in Eclipse. 
 
-* Well done! You have successfully complete the installation of Eclipse IDE.  
+* Well done! You have successfully completed the installation of Eclipse.  
 
 ### Git Installation guide  - MAC Users:
 
@@ -40,9 +45,9 @@ The following tools are covered:
 
 * Double click on the downloaded file and continue with the instructions.
 
-* Open a new terminal. Spotligh search -> enter 'terminal'
+* Open a new terminal. Spotlight search -> enter 'terminal'
 
-* Confirm that GIT has been successfully installed and is available on your user path by running this command: 'git --version'.  Output should verify GIT version.
+* Confirm that GIT has been successfully installed and is available on your user path by running this command: 'git --version'. Output should verify GIT version.
 
 ### Git Installation guide - Windows Users:
 
@@ -60,14 +65,20 @@ These step by step instructions will guide you through setting up the coding pro
 
 ### Download project
 
-* Choose somewhere on your filesystem to download the project - this can be anywhere. E.g 'C:/workspace/projects/java-training'
+* Choose somewhere on your filesystem to download the project - this can be anywhere. e.g 'C:/workspace/projects/java-training', '/documents/projects/java'
 
-* Open a cmd prompt and navigate to the file path by running this command: 'cd C:/workspace/projects/java-training'
+* Open a cmd prompt and navigate to the file path by running this command: 'cd C:/workspace/projects/java-training', 'cd '/documents/projects/java'
 
 * Execute the following GIT command to download the source code for the workshop: 'git clone https://github.com/hjunaid/java-beginners-course.git'
 
-* Launch Eclipse and choose select: File -> Import -> Git -> Projects from Git -> Next -> Existing local repository -> Add -> Browse -> (select where source code is downloaded) -> Click OK -> (Project should now be visible) -> Click Finish
+* Launch Eclipse and do the following:
+ > <span style="font-size: 15px;">1. Select File from top left panel
+ > 2. Click Import -> Git -> Projects from Git -> Next 
+ > 3. Click Existing local repository -> Add -> Browse -> (select where source code is downloaded) -> Click OK 
+ > 4. (Project should now be visible) -> Click Finish</span>
 
-* Projects should now be visible in Eclipse
+* Congratulations! You're ready to code.
 
-* Congratulations! You are ready to code.
+### Troubleshooting
+
+* If all else fails use this online editor!: https://www.compilejava.net/
