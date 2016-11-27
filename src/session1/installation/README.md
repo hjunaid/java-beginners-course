@@ -1,45 +1,84 @@
-### Eclipse Installation Guide.
+## Development Tools Setup Guide
 
-- Visit https://eclipse.org/downloads/ for downloads.
+These step by step instructions will guide you through setting up your development environment and downloading the workshop exercises. 
 
-- In the Get Eclipse Neon sectio, click Download and follow the instructino to download Eclipse IDE.
+The following tools are covered:
 
-- MAC Users:
-Once downloaded, double click on downloaded file which will extract Eclipse Installer file. 
+1. Eclipse IDE - A free, feature rich platform for general development work.
 
-- Double click on Eclipse Installer file.
+2. GIT - The most widely used version control system for source code.
 
-- Eclipse installer will start the installation process.
+3. JAVA 8 - Java Development Kit (JDK) which includes all the parts necessary to run and create Java applications.
 
-- Click on Eclipse IDE for Java EE Developers
+### Eclipse IDE installation - MAC & Windows Users:
 
-- Select Default installation folder and click install.
+* Navigate to https://eclipse.org/downloads
 
-- Accept the Software User Agreement whenever asked to do so.
+* In the Get Eclipse Neon section, click Download and follow the instructions to download Eclipse IDE.
 
-- Once installation is complete, click on Launch button.
+* Once downloaded, double click on the file which will extract Eclipse Installer file. 
 
-- Select a workspace when prompted. Verify that you can see Welcome screen in Eclipse IDE.
+* Double click on Eclipse Installer file. 
 
-- Well done! You have successfully complete the installation of Eclipse IDE.
+* If you do not have Java JDK installed, eclipse will prompt you to install it: 
+  > <span style="font-size: 15px;">1. Click 'Oracle JDK 1.8.0'
+  > 2. Accept license agreement for 'Java SE Development Kit 8u111'
+  > 3. Select appropriate Java bundle (for Windows this will typically be 'Windows x64' and 'Mac OS X' for MAC users) 
+  > 4. Double click downloaded file and follow the installation instructions 
+  > 5. Once completed navigate back to the downloaded Eclipse file to continue installing Eclipse</style>
 
-### Git Installation guide  - MAC
+* Eclipse installer will start the installation process. 
 
-- Download git installer from https://git-scm.com/download/mac
+* Click on Eclipse IDE for Java EE Developers.
 
-- Double click on the downloaded file and continue with the instructions
+* Select Default installation folder and click install. 
 
-### Git Installation guide - Windows
+* Accept the Software User License Agreement whenever asked to do so. 
 
-- Download git installer from http://git-scm.com/download/win
+* Select a workspace when prompted. Verify that you can see the welcome screen in Eclipse. 
 
-- Double click on the downloaded file and continue with the instructions
+* Well done! You have successfully completed the installation of Eclipse.  
 
-### Java installation
+### Git Installation guide  - MAC Users:
 
-- You should have Java 8 installed to work through the workshop
+* Download git installer from https://git-scm.com/download/mac
 
-- To test if Java is installed correctly follow this link https://java.com/en/download/help/testvm.xml
+* Double click on the downloaded file and continue with the instructions.
 
-- If required use the link to download Java for Mac. https://java.com/en/download/mac_download.jsp
+* Open a new terminal. Spotlight search -> enter 'terminal'
 
+* Confirm that GIT has been successfully installed and is available on your user path by running this command: 'git --version'. Output should verify GIT version.
+
+### Git Installation guide - Windows Users:
+
+* Download git installer from http://git-scm.com/download/win
+
+* Double click on the downloaded file and continue with the instructions.
+
+* Open a new command prompt. Click windows start -> run -> Enter: 'cmd' and enter
+
+* Confirm that GIT has been successfully installed and is available on your user path by running this command: 'git --version'. Output should verify GIT version.
+
+## Project setup instructions - MAC & Windows Users:
+
+These step by step instructions will guide you through setting up the coding projects within Eclipse.
+
+### Download project
+
+* Choose somewhere on your filesystem to download the project - this can be anywhere. e.g 'C:/workspace/projects/java-training', '/documents/projects/java'
+
+* Open a cmd prompt and navigate to the file path by running this command: 'cd C:/workspace/projects/java-training', 'cd '/documents/projects/java'
+
+* Execute the following GIT command to download the source code for the workshop: 'git clone https://github.com/hjunaid/java-beginners-course.git'
+
+* Launch Eclipse and do the following:
+ > <span style="font-size: 15px;">1. Select File from top left panel
+ > 2. Click Import -> Git -> Projects from Git -> Next 
+ > 3. Click Existing local repository -> Add -> Browse -> (select where source code is downloaded) -> Click OK 
+ > 4. (Project should now be visible) -> Click Finish</span>
+
+* Congratulations! You're ready to code.
+
+### Troubleshooting
+
+* If all else fails use this online editor!: https://www.compilejava.net/
