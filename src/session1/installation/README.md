@@ -74,7 +74,7 @@ These step by step instructions will guide you through setting up the coding pro
 * Launch Eclipse and do the following:
  > <span style="font-size: 15px;">1. Select File from top left panel <br/>
  > 2. Click Import -> Git -> Projects from Git -> Next <br/>
- > 3. Click Existing local repository -> Add -> Browse -> (select where source code is downloaded) -> Click OK <br/> 
+ > 3. Click Existing local repository -> Add -> Browse -> Select where source code is downloaded, this is java-beginners-course -> Click OK <br/> 
  > 4. (Project should now be visible) -> Select the project which is now visible -> Click Next <br/>
  > 5. Click checkbox 'Import as a general project' -> Click Next -> Click Finish <br/>
  > 6. Right click on the project in the Package Explorer -> Click properties <br/>
