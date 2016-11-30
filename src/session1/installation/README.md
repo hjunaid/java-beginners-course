@@ -21,11 +21,11 @@ The following tools are covered:
 * Double click on Eclipse Installer file. 
 
 * If you do not have Java JDK installed, eclipse will prompt you to install it: 
-  > <span style="font-size: 15px;">1. Click 'Oracle JDK 1.8.0'
-  > 2. Accept license agreement for 'Java SE Development Kit 8u111'
-  > 3. Select appropriate Java bundle (for Windows this will typically be 'Windows x64' and 'Mac OS X' for MAC users) 
-  > 4. Double click downloaded file and follow the installation instructions 
-  > 5. Once completed navigate back to the downloaded Eclipse file to continue installing Eclipse</style>
+  > <span style="font-size: 15px;">1. Click 'Oracle JDK 1.8.0' <br/>
+  > 2. Accept license agreement for 'Java SE Development Kit 8u111' <br/>
+  > 3. Select appropriate Java bundle (for Windows this will typically be 'Windows x64' and 'Mac OS X' for MAC users) <br/> 
+  > 4. Double click downloaded file and follow the installation instructions <br/>
+  > 5. Once completed navigate back to the downloaded Eclipse file to continue installing Eclipse <br/></style>
 
 * Eclipse installer will start the installation process. 
 
@@ -72,14 +72,14 @@ These step by step instructions will guide you through setting up the coding pro
 * Execute the following GIT command to download the source code for the workshop: 'git clone https://github.com/hjunaid/java-beginners-course.git'
 
 * Launch Eclipse and do the following:
- > <span style="font-size: 15px;">1. Select File from top left panel
- > 2. Click Import -> Git -> Projects from Git -> Next 
- > 3. Click Existing local repository -> Add -> Browse -> (select where source code is downloaded) -> Click OK 
- > 4. (Project should now be visible) -> Select the project which is now visible -> Click Next
- > 5. Click checkbox 'Import as a general project' -> Click Next -> Click Finish
- > 6. Right click on the project in the Package Explorer -> Click properties
- > 7. Click Project Facets -> Click convert to faceted form
- > 8. Ensure Java 1.8 checkbox is selected -> Click OK
+ > <span style="font-size: 15px;">1. Select File from top left panel <br/>
+ > 2. Click Import -> Git -> Projects from Git -> Next <br/>
+ > 3. Click Existing local repository -> Add -> Browse -> (select where source code is downloaded) -> Click OK <br/> 
+ > 4. (Project should now be visible) -> Select the project which is now visible -> Click Next <br/>
+ > 5. Click checkbox 'Import as a general project' -> Click Next -> Click Finish <br/>
+ > 6. Right click on the project in the Package Explorer -> Click properties <br/>
+ > 7. Click Project Facets -> Click convert to faceted form <br/>
+ > 8. Ensure Java 1.8 checkbox is selected -> Click OK <br/>
  
  Click Finish</span>
 
