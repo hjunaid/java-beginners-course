@@ -75,7 +75,13 @@ These step by step instructions will guide you through setting up the coding pro
  > <span style="font-size: 15px;">1. Select File from top left panel
  > 2. Click Import -> Git -> Projects from Git -> Next 
  > 3. Click Existing local repository -> Add -> Browse -> (select where source code is downloaded) -> Click OK 
- > 4. (Project should now be visible) -> Click Finish</span>
+ > 4. (Project should now be visible) -> Select the project which is now visible -> Click Next
+ > 5. Click checkbox 'Import as a general project' -> Click Next -> Click Finish
+ > 6. Right click on the project in the Package Explorer -> Click properties
+ > 7. Click Project Facets -> Click convert to faceted form
+ > 8. Ensure Java 1.8 checkbox is selected -> Click OK
+ 
+ Click Finish</span>
 
 * Congratulations! You're ready to code.
 
