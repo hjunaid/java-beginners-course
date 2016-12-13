@@ -7,5 +7,14 @@ public class NameAndAge {
     * */
 	public static void main(String[] args){
 		/*Write your code inside this block*/
+		
+		/*Tip: use two variables.
+		 * One variable for storing name and the other for storing the age 
+		 * Then use System.out.println() to print the restuls 
+		 * Note: To concatenate two strings you can use + sign. For instance, name + age 
+		 * 
+		 * If you get stuck, the solution is in solutions.session1.data_types.NameAndAge file
+		 * 
+		 * */
 	}
 }

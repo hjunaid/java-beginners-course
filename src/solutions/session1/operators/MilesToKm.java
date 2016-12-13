@@ -10,9 +10,11 @@ public class MilesToKm {
     * */
     public static void main(String[] args) {
 
-        long distanceCoveredKMs = 308;
+        int distanceCoveredKMs = 308;
 
-        double distanceCoveredMiles = distanceCoveredKMs / 1.6;
+        double conversionRatio = 1.6;
+        
+        double distanceCoveredMiles = distanceCoveredKMs / conversionRatio;
 
         System.out.println(distanceCoveredMiles + " Miles");
     }

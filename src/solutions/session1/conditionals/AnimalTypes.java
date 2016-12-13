@@ -4,7 +4,7 @@ package solutions.session1.conditionals;
  * User: junaid
  * Date: 30/10/2016
  */
-public class KittenAge {
+public class AnimalTypes {
 
     /*
     *  You can tell age of a kitten by examinings its eyes.

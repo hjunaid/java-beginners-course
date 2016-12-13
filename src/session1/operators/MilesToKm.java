@@ -14,6 +14,12 @@ public class MilesToKm {
      * The result should be something like "xxx Miles".
     * */
     public static void main(String[] args) {
-            /*Write your code inside this block*/
+        /*Write your code inside this block*/
+    	
+    	/*TIP: Define two variables. One for kilometers and the other for conversionRatio.
+    	 * Then define another variable to store the result of division. 
+    	 * Use System.out.println() to print the result 
+    	 */
+    	
     }
 }
