@@ -14,12 +14,6 @@ public class AnimalTypes {
         int numberOfLegs = 2;
 
         //hint: Use if-else block to compare numberOfLegs and then print a message.
-        if(numberOfLegs == 2){
-        	System.out.println("You are a monkey.");
-        }else if (numberOfLegs == 4){
-        	System.out.println("You are a donkey.");
-        }else{
-        	System.out.println("You are an alien.");
-        }
+       
     }
 }
