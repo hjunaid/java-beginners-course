@@ -19,7 +19,7 @@ public class AnimalTypes {
         }else if (numberOfLegs == 4){
         	System.out.println("You are a donkey.");
         }else{
-        	System.out.println("You are a fish.");
+        	System.out.println("You are an alien.");
         }
     }
 }
